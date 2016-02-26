@@ -3,6 +3,8 @@ package edu.saintjoe.cs.brianc.problemtwo;
 public class ProblemTwo {
 	int first;
 	int second;
+	//New data member
+	int thrid;
 	String one = "Here we go!!";
 	String two;
 	
@@ -17,6 +19,7 @@ public class ProblemTwo {
 	public String gettwo() {
 		return two;
 	}
+	
 
 	public static void main(String[] args) {
 		// Creat a new ProblemTwo object, reference it with myProblem
@@ -27,7 +30,8 @@ public class ProblemTwo {
 		
 		// Prove that it worked by printing the value back out
 		System.out.println("We have '" + myProblem.gettwo() + "' for variable two");
-
+		// Added method
+		System.out.println("I added it WOOOO");
 	}
 
 }
